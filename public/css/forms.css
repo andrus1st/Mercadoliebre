@@ -1,0 +1,58 @@
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search-box .search-input,
+.search-box .search-btn,
+.input-box .input {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: #666;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 0px;
+}
+.search-box .search-input {
+  width: 100%;
+}
+
+.input-button-login {
+  font-size: 20px;
+}
+
+.input-button-login:hover{
+  background-color:#0022AA;
+} 
+
+.input-button-register:hover{
+  background-color:#0022AA;
+} 
+
+.input-button-reset:hover{
+  background-color:#0022AA;
+} 
+
+.input-box .input {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.error-box {
+  background-color: red;
+  padding: 50px;
+}
+
+.register-form {
+  padding: 50px;
+}
+
+.label {
+  font-size: 20px;
+}

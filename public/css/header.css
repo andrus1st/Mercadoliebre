@@ -1,0 +1,90 @@
+#page-header {
+  background-color: #eac926;
+  padding: 16px;
+}
+
+.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  width: 33%;
+  min-width: 150px;
+}
+
+.header-form {
+  width: 33%;
+  text-align: center;
+}
+
+.header-card {
+  width: 33%;
+  text-align: center;
+}
+
+#burger-menu {
+  text-align: center;
+}
+
+#burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#main-nav {
+  display: none;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cred-card {
+  padding: 12px;
+}
+
+.search-input {
+  height: 30px;
+  width: 80%;
+}
+
+.search-btn {
+  height: 30px;
+  width: 30px;
+}
+
+
+@media (min-width: 768px) {
+  #main-nav {
+    display: block;
+  }
+
+  #burger-menu {
+    display: none;
+  }
+
+  #main-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #main-nav ul {
+    display: flex;
+  }
+
+  #main-nav li {
+    margin: 0px 14px;
+  }
+}

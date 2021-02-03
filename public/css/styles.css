@@ -1,0 +1,66 @@
+:root {
+  --primary: #eac926;
+  --main-yellow: #eac926;
+  --dark-blue: #03264c;
+  --light-blue: #1259c3;
+  --dark-grey: #666;
+  --light-grey: #ebebeb;
+  --green: #39b54a;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+h3 {
+  color: #666;
+}
+
+.banner img {
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.foot-divs {
+  text-align: center;
+  padding: 12px;
+}
+
+.foot-divs i {
+  background-color: white;
+  color:#0044aa;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.foot-divs i:hover {
+color:#03264c
+}
+
+.cred-card {
+  padding: 0px 0px 16px;
+}
+
+.foot-all {
+  display: flex;
+  padding: 12px 18px
+}
